@@ -1,0 +1,26 @@
+{
+  "name": "remote_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashRajSingh-4799/Remote_Viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashRajSingh-4799/Remote_Viewer/issues"
+  },
+  "homepage": "https://github.com/YashRajSingh-4799/Remote_Viewer#readme",
+  "dependencies": {
+    "electron": "^23.1.2",
+    "screenshot-desktop": "^0.0.0-development",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
