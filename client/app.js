@@ -1,5 +1,9 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
+const {v4: uuidv4} = require('uuid');
+const screenshot= require('screenshot-desktop');
+var socket= require('socket.io-client')('http://localhost:5000')
+
 
 function createWindow () {
   const win = new BrowserWindow({
