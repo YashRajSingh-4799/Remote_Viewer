@@ -21,13 +21,13 @@
                 return;
             }
 
-            // socket = io.connect('https://localhost:5000');
+            socket = io.connect('https://localhost:5000');
 
-            // socket.emit("join-message", room);
-            // socket.on('screen-data', function(message){
-            //     $("img").attr("src", "data:image/png;base64," + message);
+            socket.emit("join-message", room);
+            socket.on('screen-data', function(message){
+                $("img").attr("src", "data:image/png;base64," + message);
 
-            // })
+            })
         }
 
     </script>

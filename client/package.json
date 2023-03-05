@@ -22,6 +22,7 @@
     "electron": "^23.1.2",
     "screenshot-desktop": "^0.0.0-development",
     "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
     "uuid": "^9.0.0"
   }
 }
